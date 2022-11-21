@@ -13,7 +13,7 @@ import { BrowserRouter } from "react-router-dom";
  */
 
 const client = new ApolloClient({
-  uri: 'https://mac-nodejs-graphql.herokuapp.com/' });
+  uri: 'https://mac-nodejs-graphql.herokuapp.com/graphql' });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
